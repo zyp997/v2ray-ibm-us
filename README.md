@@ -1,36 +1,19 @@
-# IBM Cloud Foundry - V2Ray
+提示：
 
-Use GitHub Actions to automatically deploy the latest version of V2Ray to IBM Cloud Foundry
+1：用的人增多，肯定会步达拉斯的后尘，用起来别太狠，建议轻度用户使用
 
-[Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/how-to-use-ibm-cloud-gracefully-for-free.html)
+2：脚本默认情况下仅支持IBM伦敦，每天自动更新升级V2ray并重启
 
-## Usage
+详细教程：https://youtu.be/2WGJbtsY6gw
 
-- Click the [Use this template](https://github.com/P3TERX/IBM-CF-V2/generate) button to create a new repository.
-- Click the `Settings` tab on your own repository, and then click the `Secrets` button to add the following encrypted environment variables:
-
-  | Environment Variables | Description |
+   | Secrets变量 | 形式 |
   | --------------------- | ----------- |
-  | `IBM_CF_USERNAME`       | IBM Cloud user name (email address) |
-  | `IBM_CF_PASSWORD` | IBM Cloud password |
-  | `IBM_CF_ORG_NAME`(optional) | Organization name, the default is the email address. Can be found on [this page](https://cloud.ibm.com/account/cloud-foundry). |
-  | `IBM_CF_SPACE_NAME`(optional) | Space name, default is `dev`. Can be found on [this page](https://cloud.ibm.com/account/cloud-foundry). |
-  | `IBM_CF_APP_NAME` | App name, fill in according to your preference. |
-  | `V2_UUID` | Generate using UUID generator |
-  | `V2_WS_PATH_VMESS` </br> `V2_WS_PATH_VLESS` | Select one of the VMess and VLESS protocols, and fill in a combination of numbers and English letters. |
+  | `IBM_CF_USERNAME`       | IBM Cloud 邮箱地址 |
+  | `IBM_CF_PASSWORD` | IBM Cloud 邮箱密码 |
+  | `IBM_CF_APP_NAME` | IBM Cloud 应用程序名 |
+  | `V2_UUID` | 自定义UUID码 |
+  | `V2_WS_PATH_VMESS` </br> `V2_WS_PATH_VLESS` | 协议选择一个，填入自定义PATH路径 |
+  
+注：VMESS默认的alterId为64
 
-- Click the `Run workflow` button on the Actions page.
-- Wait for the deployment to complete.
-- Click the relevant application on the [Cloud Foundry Public](https://cloud.ibm.com/cloudfoundry/public) page to view the access address.
-
-> **TIPS:** You can customize the API address and App memory size through the workflow file.
-
-## Acknowledgments
-
-- [Project V](https://github.com/v2ray)
-- [IBM Cloud](https://cloud.ibm.com/)
-- [GitHub Actions](https://github.com/features/actions)
-
-## Licence
-
-[MIT](https://github.com/P3TERX/IBM-CF-V2/blob/main/LICENSE) © P3TERX
+感谢P3TERX
