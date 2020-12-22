@@ -2,8 +2,6 @@
 
 1：用的人增多，肯定会步达拉斯的后尘，用起来别太狠，建议轻度用户使用
 
-（如果你需要，之前的重灾区-达拉斯的地址https://github.com/ygtsj/IBM-DLS ，方法同理！）
-
 2：脚本默认情况下：仅支持IBM伦敦仅支持IBM伦敦仅支持IBM伦敦 ，每天自动更新V2ray并重启
 
 详细教程视频（YouTube）：https://youtu.be/2WGJbtsY6gw
