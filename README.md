@@ -4,6 +4,8 @@
 
 2：脚本默认情况下：仅支持IBM伦敦仅支持IBM伦敦仅支持IBM伦敦 ，每天自动更新V2ray并重启
 
+3：2021.1.12更新：默认内存从128M设置为256M
+
 详细教程视频（YouTube）：https://youtu.be/2WGJbtsY6gw
 
    | Secrets变量 | 形式 |
